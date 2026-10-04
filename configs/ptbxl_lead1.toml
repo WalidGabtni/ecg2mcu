@@ -1,0 +1,14 @@
+# Single-lead (Lead I) model, the setup of the deployed prototype.
+[data]
+source = "ptbxl"
+path = "data/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3"
+cache_dir = "data/cache"
+leads = "lead1"
+normalization = "window"
+
+[train]
+epochs = 30
+
+[export]
+out_dir = "runs/ptbxl_lead1"
+firmware_dir = ""   # e.g. "firmware/ecg_inference" to copy the header into the sketch

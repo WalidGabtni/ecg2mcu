@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+secrets.h
+!secrets.example.h
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Data and run outputs (the bundled sample in ecg2mcu/data is kept)
+/data/
+runs/
+*.pth
+
+# Generated firmware header (created by `ecg2mcu export --firmware-dir`)
+firmware/ecg_inference/cnn1d_model.h
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# AI tooling
+CLAUDE.md
+AGENTS.md
+.claude/

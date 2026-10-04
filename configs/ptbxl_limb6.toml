@@ -1,0 +1,12 @@
+# Six frontal-plane leads (I, II, III, aVR, aVL, aVF).
+[data]
+source = "ptbxl"
+path = "data/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3"
+cache_dir = "data/cache"
+leads = "limb6"
+
+[train]
+epochs = 30
+
+[export]
+out_dir = "runs/ptbxl_limb6"

@@ -1,0 +1,15 @@
+# All 12 leads.
+[data]
+source = "ptbxl"
+path = "data/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3"
+cache_dir = "data/cache"
+leads = "all12"
+
+[train]
+epochs = 30
+
+[model]
+fc_size = 128
+
+[export]
+out_dir = "runs/ptbxl_all12"

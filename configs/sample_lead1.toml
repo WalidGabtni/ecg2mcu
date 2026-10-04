@@ -1,0 +1,12 @@
+# Smoke test on the bundled sample: runs in about a minute on a CPU.
+# The metrics are not meaningful (300 training windows); this checks that the pipeline works.
+[data]
+source = "sample"
+leads = "lead1"
+
+[train]
+epochs = 15
+
+[export]
+out_dir = "runs/sample_lead1"
+tolerance_auc = 0.05   # loose: the sample test set is tiny
