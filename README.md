@@ -100,6 +100,10 @@ Every option has a default; a config file only lists what it changes. The main o
 
 Contributions and issues are welcome.
 
+## License
+
+The code is released under the [MIT License](LICENSE): anyone can use, modify and redistribute it. The bundled sample data is a subset of PTB-XL and keeps its own license (CC BY 4.0), see below.
+
 ## Data and citation
 
 The bundled sample is a subset of PTB-XL, released under CC BY 4.0. Wagner, P. et al. *PTB-XL, a large publicly available electrocardiography dataset.* Scientific Data 7, 154 (2020). https://physionet.org/content/ptb-xl/1.0.3/
