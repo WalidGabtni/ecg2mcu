@@ -6,6 +6,13 @@ It grew out of a Master's thesis on running cardiac classification directly on a
 
 ## Quickstart
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WalidGabtni/ecg2mcu/blob/main/notebooks/ecg2mcu_quickstart.ipynb)
+
+**Try it in your browser, no install:** the notebook above runs the whole pipeline and shows the verification catching two broken exports.
+
+**Or run it locally:**
+
+
 ```bash
 git clone https://github.com/WalidGabtni/ecg2mcu.git
 cd ecg2mcu
